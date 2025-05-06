@@ -17,7 +17,7 @@ This project involves the design, simulation, assembly, and testing of a simple 
 
 ## Circuit Diagram
 
-![Proteus Schematic](schematic/proteus_schematic.png)
+![Proteus Schematic](schematic/circuit_schematic.png)
 *Figure 1: Circuit schematic designed in Proteus.*
 
 **(Block Diagram)**
@@ -46,19 +46,13 @@ This project involves the design, simulation, assembly, and testing of a simple 
 6.  The flyback diode provides a path for the current induced in the coil when the BJT turns OFF, protecting the transistor.
 7.  When the control signal is LOW (0V), the BJT turns OFF, interrupting current to the relay coil, and the relay de-energizes.
 
- [Link to Report](./report/HCMUT_BJT_Relay_Report_GroupX.pdf))*
+ [Link to Report](report/HCMUT_BJT_Relay_Report.pdf))*
 
 ## Results and Observations
 
 *   **Theoretical Turn-on Input Voltage (Vi):** Calculated based on BJT parameters (V_BE(on)=0.7V, β=100) and relay coil resistance (Rc=70Ω), the minimum Vi for saturation was calculated to be approx. **1.39V**.
 *   **Measured Turn-on Input Voltage (Vi):** Using a VOM, the relay was observed to reliably turn ON when Vi reached approx. **1.82V**. The difference could be due to actual component tolerances and specific BJT/relay characteristics.
 *   **Commercial Module Turn-on Voltage:** A commercial relay module with an optocoupler was tested. Its turn-on input voltage was measured at approx. **1.45V**. The optocoupler provides isolation but might introduce slight differences in required input voltage/current compared to the direct BJT drive.
-
-![Measurement Setup](images/measurement_setup.jpg)
-*Figure 3: Measuring the input voltage (Vi) using a VOM.*
-
-![Commercial Relay Module](images/commercial_opto_relay.jpg)
-*Figure 4: The commercial relay module with optocoupler used for comparison.*
 
 ## Video Demonstration
 
