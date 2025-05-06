@@ -18,11 +18,13 @@ This project involves the design, simulation, assembly, and testing of a simple 
 ## Circuit Diagram
 
 ![Proteus Schematic](schematic/circuit_schematic.png)
+
 *Figure 1: Circuit schematic designed in Proteus.*
 
 **(Block Diagram)**
 
 ![Block Diagram](schematic/block_diagram.png)
+
 *Figure 2: Block diagram of the system.*
 
 ## Components Used
@@ -59,6 +61,7 @@ This project involves the design, simulation, assembly, and testing of a simple 
 A short video demonstrating the circuit assembly, operation, and testing:
 
 [![BJT Relay Circuit Demo](https://img.youtube.com/vi/von2baLYxo4/0.jpg)](https://youtu.be/von2baLYxo4)
+
 *(Click the image to watch the video on YouTube)*
 
 ## Skills Demonstrated
